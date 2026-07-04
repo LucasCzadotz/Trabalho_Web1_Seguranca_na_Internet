@@ -1,3 +1,25 @@
-body {
-  font-family: Arial, Helvetica, sans-serif;
+.navbar {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
+
+.nav-link {
+  font-size: 1.4rem;
+}
+
+.nav-item {
+  margin-right: 1.6rem;
+}
+
+.navbar, footer {
+  background-color: #002e9b;
+}
+
+main {
+  background-color: #0a1a3f;
+  color: #c7d2f0;
+}
+
+h1, h2, h3 {
+  color: #ffffff;
+}/*# sourceMappingURL=styles.css.map */

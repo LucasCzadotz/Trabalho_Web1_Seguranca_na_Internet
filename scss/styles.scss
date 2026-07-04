@@ -1,3 +1,27 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
+@use "variables" as *;
+
+.navbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.nav-link {
+    font-size: 1.4rem;
+}
+
+.nav-item {
+    margin-right: 1.6rem;
+}
+
+.navbar, footer {
+    background-color: $azul-navbar;
+}
+
+main {
+    background-color: $azul-main;
+    color: $cinza-texto;
+}
+
+h1, h2, h3 {
+    color: $branco-texto;
 }
