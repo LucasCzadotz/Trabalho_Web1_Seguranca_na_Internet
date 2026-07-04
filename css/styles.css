@@ -1,6 +1,7 @@
 .navbar {
   padding-top: 1rem;
   padding-bottom: 1rem;
+  background-color: #03329e;
 }
 
 .nav-link {
@@ -11,22 +12,15 @@
   margin-right: 1.6rem;
 }
 
-.navbar,
-footer {
-  background-color: #002e9b;
-}
-
 main {
-  background-color: #0a1a3f;
+  background-color: #071d50;
   color: #c7d2f0;
-}
-
-h1,
-h2,
-h3 {
-  color: #ffffff;
 }
 
 div > p {
   text-indent: 1.6rem;
+}
+
+footer {
+  background-color: #03329e;
 }/*# sourceMappingURL=styles.css.map */
