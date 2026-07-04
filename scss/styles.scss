@@ -13,7 +13,8 @@
     margin-right: 1.6rem;
 }
 
-.navbar, footer {
+.navbar,
+footer {
     background-color: $azul-navbar;
 }
 
@@ -22,6 +23,12 @@ main {
     color: $cinza-texto;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     color: $branco-texto;
+}
+
+div>p {
+    text-indent: 1.6rem;
 }
