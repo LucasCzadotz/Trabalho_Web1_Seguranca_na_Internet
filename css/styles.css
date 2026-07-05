@@ -37,4 +37,8 @@ footer {
   height: 100%;
   display: flex;
   flex-direction: column;
+}
+
+.accordion {
+  box-shadow: 0 8px 20px rgba(1, 38, 160, 0.9);
 }/*# sourceMappingURL=styles.css.map */
