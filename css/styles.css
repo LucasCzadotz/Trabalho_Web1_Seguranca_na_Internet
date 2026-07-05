@@ -14,7 +14,7 @@
 
 main {
   background-color: #071d50;
-  color: #c7d2f0;
+  color: #e7ecfa;
 }
 
 div > p {
@@ -23,4 +23,18 @@ div > p {
 
 footer {
   background-color: #03329e;
+}
+
+.card-img {
+  height: 220px;
+}
+
+.card-golpe {
+  background-color: #16265c;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+  padding: 1rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }/*# sourceMappingURL=styles.css.map */
