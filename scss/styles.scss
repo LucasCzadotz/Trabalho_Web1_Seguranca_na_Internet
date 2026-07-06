@@ -3,7 +3,7 @@
 .navbar {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: $azul-navbar;
+    background-color: $azul-nav;
 }
 
 .nav-link {
@@ -24,7 +24,7 @@ div>p {
 }
 
 footer {
-    background-color: $azul-navbar;
+    background-color: $azul-nav;
 }
 
 .card-img {
@@ -43,4 +43,19 @@ footer {
 
 .accordion {
     box-shadow: 0 8px 20px rgba(1, 38, 160, 0.9);
+}
+
+@keyframes brilho-logo {
+
+    0%, 100% {
+        filter: drop-shadow(0 0 2px $azul-destaque);
+    }
+
+    50% {
+        filter: drop-shadow(0 0 20px $azul-destaque);
+    }
+}
+
+.navbar-brand img {
+    animation: brilho-logo 3s ease-in-out infinite;
 }

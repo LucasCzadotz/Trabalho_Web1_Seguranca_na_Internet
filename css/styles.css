@@ -30,7 +30,7 @@ footer {
 }
 
 .card-golpe {
-  background-color: #16265c;
+  background-color: #172b6e;
   border-radius: 12px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
   padding: 1rem;
@@ -41,4 +41,16 @@ footer {
 
 .accordion {
   box-shadow: 0 8px 20px rgba(1, 38, 160, 0.9);
+}
+
+@keyframes brilho-logo {
+  0%, 100% {
+    filter: drop-shadow(0 0 2px #3d7bff);
+  }
+  50% {
+    filter: drop-shadow(0 0 20px #3d7bff);
+  }
+}
+.navbar-brand img {
+  animation: brilho-logo 3s ease-in-out infinite;
 }/*# sourceMappingURL=styles.css.map */
