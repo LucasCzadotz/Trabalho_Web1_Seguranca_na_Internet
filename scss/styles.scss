@@ -48,11 +48,11 @@ footer {
 @keyframes brilho-logo {
 
     0%, 100% {
-        filter: drop-shadow(0 0 2px $azul-destaque);
+        filter: drop-shadow(0 0 2px $azul-logo);
     }
 
     50% {
-        filter: drop-shadow(0 0 20px $azul-destaque);
+        filter: drop-shadow(0 0 20px $azul-logo);
     }
 }
 
